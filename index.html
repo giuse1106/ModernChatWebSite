@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModernChat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">ModernChat</div>
+        <nav>
+            <ul>
+                <li><a href="#chi-siamo">Chi siamo</a></li>
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Benvenuti in ModernChat</h1>
+        <p>I tuoi produttori di bot per automazioni WhatsApp preferiti!</p>
+        <a href="#contatti" class="btn">Contattaci</a>
+    </section>
+    <section id="chi-siamo" class="chi-siamo">
+        <h2>Chi siamo</h2>
+        <div class="vcard-container">
+            <div class="vcard">
+                <img src="moderatore1.jpg" alt="Moderatore 1">
+                <h3>Nome Moderatore 1</h3>
+                <p>Info moderatore 1</p>
+            </div>
+            <div class="vcard">
+                <img src="moderatore2.jpg" alt="Moderatore 2">
+                <h3>Nome Moderatore 2</h3>
+                <p>Info moderatore 2</p>
+            </div>
+            <div class="vcard">
+                <img src="moderatore3.jpg" alt="Moderatore 3">
+                <h3>Nome Moderatore 3</h3>
+                <p>Info moderatore 3</p>
+            </div>
+        </div>
+    </section>
+    <section id="servizi" class="servizi">
+        <h2>Servizi</h2>
+        <ul>
+            <li>Bot WhatsApp Personalizzati</li>
+            <li>Integrazione con piattaforme social</li>
+            <li>Analisi dei dati e messaggistica</li>
+        </ul>
+    </section>
+    <section id="contatti" class="contatti">
+        <h2>Contatti</h2>
+        <p>Compila il modulo per richiedere maggiori informazioni.</p>
+        <form id="whatsappForm">
+            <input type="text" id="nome" placeholder="Nome">
+            <textarea id="messaggio" placeholder="Messaggio"></textarea>
+            <button type="button" onclick="inviaWhatsApp()">Contatta via WhatsApp</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 ModernChat</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
